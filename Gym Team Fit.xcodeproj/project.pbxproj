@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB15DEA82A8772AB00BFC7B9 /* BookTimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15DEA72A8772AB00BFC7B9 /* BookTimeTable.swift */; };
+		FB43A1792A86B75E00AB0470 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBD6A0D72A83A2F4005D6022 /* Raleway-Bold.ttf */; };
+		FB43A17A2A86B76000AB0470 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBD6A0D92A83A2F4005D6022 /* Raleway-Medium.ttf */; };
+		FB43A17B2A86B76300AB0470 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBD6A0D82A83A2F4005D6022 /* Raleway-SemiBold.ttf */; };
+		FB43A17C2A86B76700AB0470 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBA466322A83A93600BC1D7A /* Montserrat-Bold.ttf */; };
+		FB43A17D2A86B76900AB0470 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBA466302A83A93600BC1D7A /* Montserrat-Medium.ttf */; };
+		FB43A17E2A86B76D00AB0470 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBA466312A83A93600BC1D7A /* Montserrat-SemiBold.ttf */; };
+		FB48B6F32A8540EE0049FDB7 /* WorkshopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6F22A8540EE0049FDB7 /* WorkshopCell.swift */; };
+		FB48B6F62A8542D40049FDB7 /* LessonTimeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6F52A8542D40049FDB7 /* LessonTimeItemView.swift */; };
+		FB48B6F82A854EFF0049FDB7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6F72A854EFF0049FDB7 /* Data.swift */; };
+		FB48B6FA2A85D5F50049FDB7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6F92A85D5F50049FDB7 /* UserDefaultsManager.swift */; };
+		FB48B6FC2A8600EF0049FDB7 /* BookTimesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6FB2A8600EF0049FDB7 /* BookTimesCell.swift */; };
+		FB48B6FE2A8612B30049FDB7 /* InstructionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB48B6FD2A8612B30049FDB7 /* InstructionVC.swift */; };
+		FB48B7062A863ADC0049FDB7 /* tapSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB48B7052A863ADC0049FDB7 /* tapSound.mp3 */; };
+		FBA466352A83D0B000BC1D7A /* FeedbacksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA466342A83D0B000BC1D7A /* FeedbacksCell.swift */; };
 		FBD6A0AE2A836272005D6022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0AD2A836272005D6022 /* AppDelegate.swift */; };
 		FBD6A0B02A836272005D6022 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0AF2A836272005D6022 /* SceneDelegate.swift */; };
-		FBD6A0B22A836272005D6022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0B12A836272005D6022 /* ViewController.swift */; };
+		FBD6A0B22A836272005D6022 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0B12A836272005D6022 /* HomeVC.swift */; };
 		FBD6A0B52A836272005D6022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6A0B32A836272005D6022 /* Main.storyboard */; };
 		FBD6A0B82A836272005D6022 /* Gym_Team_Fit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0B62A836272005D6022 /* Gym_Team_Fit.xcdatamodeld */; };
 		FBD6A0BA2A836273005D6022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD6A0B92A836273005D6022 /* Assets.xcassets */; };
 		FBD6A0BD2A836273005D6022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6A0BB2A836273005D6022 /* LaunchScreen.storyboard */; };
+		FBD6A0C52A836373005D6022 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0C42A836373005D6022 /* UIViewExtension.swift */; };
+		FBD6A0C72A836380005D6022 /* UIColorextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0C62A836380005D6022 /* UIColorextension.swift */; };
+		FBD6A0CD2A838FE3005D6022 /* LockerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0CC2A838FE3005D6022 /* LockerVC.swift */; };
+		FBD6A0CF2A838FF9005D6022 /* WorkshopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0CE2A838FF9005D6022 /* WorkshopVC.swift */; };
+		FBD6A0D12A83961D005D6022 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0D02A83961D005D6022 /* FeedbackVC.swift */; };
+		FBD6A0D32A839634005D6022 /* CoachCornerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0D22A839634005D6022 /* CoachCornerVC.swift */; };
+		FBD6A0D52A839640005D6022 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD6A0D42A839640005D6022 /* BaseVC.swift */; };
+		FBE9B19B2A83F39A0048A7F5 /* CoachsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9B19A2A83F39A0048A7F5 /* CoachsItemView.swift */; };
+		FBED13A92A8942DC00662B41 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED13A82A8942DC00662B41 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB15DEA72A8772AB00BFC7B9 /* BookTimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTimeTable.swift; sourceTree = "<group>"; };
+		FB48B6F22A8540EE0049FDB7 /* WorkshopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopCell.swift; sourceTree = "<group>"; };
+		FB48B6F52A8542D40049FDB7 /* LessonTimeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTimeItemView.swift; sourceTree = "<group>"; };
+		FB48B6F72A854EFF0049FDB7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FB48B6F92A85D5F50049FDB7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		FB48B6FB2A8600EF0049FDB7 /* BookTimesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTimesCell.swift; sourceTree = "<group>"; };
+		FB48B6FD2A8612B30049FDB7 /* InstructionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionVC.swift; sourceTree = "<group>"; };
+		FB48B7052A863ADC0049FDB7 /* tapSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tapSound.mp3; sourceTree = "<group>"; };
+		FBA466302A83A93600BC1D7A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		FBA466312A83A93600BC1D7A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		FBA466322A83A93600BC1D7A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FBA466342A83D0B000BC1D7A /* FeedbacksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksCell.swift; sourceTree = "<group>"; };
 		FBD6A0AA2A836272005D6022 /* Gym Team Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Team Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD6A0AD2A836272005D6022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD6A0AF2A836272005D6022 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBD6A0B12A836272005D6022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBD6A0B12A836272005D6022 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FBD6A0B42A836272005D6022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBD6A0B72A836272005D6022 /* Gym_Team_Fit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gym_Team_Fit.xcdatamodel; sourceTree = "<group>"; };
 		FBD6A0B92A836273005D6022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD6A0BC2A836273005D6022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD6A0BE2A836273005D6022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD6A0C42A836373005D6022 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FBD6A0C62A836380005D6022 /* UIColorextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorextension.swift; sourceTree = "<group>"; };
+		FBD6A0CC2A838FE3005D6022 /* LockerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerVC.swift; sourceTree = "<group>"; };
+		FBD6A0CE2A838FF9005D6022 /* WorkshopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopVC.swift; sourceTree = "<group>"; };
+		FBD6A0D02A83961D005D6022 /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		FBD6A0D22A839634005D6022 /* CoachCornerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachCornerVC.swift; sourceTree = "<group>"; };
+		FBD6A0D42A839640005D6022 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		FBD6A0D72A83A2F4005D6022 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		FBD6A0D82A83A2F4005D6022 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		FBD6A0D92A83A2F4005D6022 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		FBE9B19A2A83F39A0048A7F5 /* CoachsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachsItemView.swift; sourceTree = "<group>"; };
+		FBED13A82A8942DC00662B41 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +87,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB48B6F42A8540FB0049FDB7 /* iitems */ = {
+			isa = PBXGroup;
+			children = (
+				FBE9B19A2A83F39A0048A7F5 /* CoachsItemView.swift */,
+				FB48B6F52A8542D40049FDB7 /* LessonTimeItemView.swift */,
+			);
+			path = iitems;
+			sourceTree = "<group>";
+		};
+		FBA466332A83D09800BC1D7A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FBA466342A83D0B000BC1D7A /* FeedbacksCell.swift */,
+				FB48B6F22A8540EE0049FDB7 /* WorkshopCell.swift */,
+				FB48B6FB2A8600EF0049FDB7 /* BookTimesCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		FBD6A0A12A836271005D6022 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +125,77 @@
 		FBD6A0AC2A836272005D6022 /* Gym Team Fit */ = {
 			isa = PBXGroup;
 			children = (
-				FBD6A0AD2A836272005D6022 /* AppDelegate.swift */,
-				FBD6A0AF2A836272005D6022 /* SceneDelegate.swift */,
-				FBD6A0B12A836272005D6022 /* ViewController.swift */,
-				FBD6A0B32A836272005D6022 /* Main.storyboard */,
-				FBD6A0B92A836273005D6022 /* Assets.xcassets */,
-				FBD6A0BB2A836273005D6022 /* LaunchScreen.storyboard */,
+				FB48B6F42A8540FB0049FDB7 /* iitems */,
+				FBA466332A83D09800BC1D7A /* cell */,
+				FBD6A0D62A83A2D9005D6022 /* font */,
+				FBD6A0CB2A8363AC005D6022 /* pages */,
+				FBD6A0CA2A83639B005D6022 /* views */,
+				FBD6A0C92A83638F005D6022 /* app */,
+				FBD6A0C82A836384005D6022 /* extensions */,
 				FBD6A0BE2A836273005D6022 /* Info.plist */,
+				FB48B7052A863ADC0049FDB7 /* tapSound.mp3 */,
 				FBD6A0B62A836272005D6022 /* Gym_Team_Fit.xcdatamodeld */,
 			);
 			path = "Gym Team Fit";
+			sourceTree = "<group>";
+		};
+		FBD6A0C82A836384005D6022 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBD6A0C62A836380005D6022 /* UIColorextension.swift */,
+				FBD6A0C42A836373005D6022 /* UIViewExtension.swift */,
+				FB48B6F72A854EFF0049FDB7 /* Data.swift */,
+				FBED13A82A8942DC00662B41 /* ArrayExtension.swift */,
+				FB48B6F92A85D5F50049FDB7 /* UserDefaultsManager.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		FBD6A0C92A83638F005D6022 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				FBD6A0AF2A836272005D6022 /* SceneDelegate.swift */,
+				FBD6A0AD2A836272005D6022 /* AppDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		FBD6A0CA2A83639B005D6022 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FBD6A0B92A836273005D6022 /* Assets.xcassets */,
+				FBD6A0BB2A836273005D6022 /* LaunchScreen.storyboard */,
+				FBD6A0B32A836272005D6022 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FBD6A0CB2A8363AC005D6022 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				FBD6A0B12A836272005D6022 /* HomeVC.swift */,
+				FBD6A0CC2A838FE3005D6022 /* LockerVC.swift */,
+				FBD6A0CE2A838FF9005D6022 /* WorkshopVC.swift */,
+				FBD6A0D02A83961D005D6022 /* FeedbackVC.swift */,
+				FBD6A0D22A839634005D6022 /* CoachCornerVC.swift */,
+				FBD6A0D42A839640005D6022 /* BaseVC.swift */,
+				FB48B6FD2A8612B30049FDB7 /* InstructionVC.swift */,
+				FB15DEA72A8772AB00BFC7B9 /* BookTimeTable.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		FBD6A0D62A83A2D9005D6022 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				FBD6A0D72A83A2F4005D6022 /* Raleway-Bold.ttf */,
+				FBD6A0D92A83A2F4005D6022 /* Raleway-Medium.ttf */,
+				FBD6A0D82A83A2F4005D6022 /* Raleway-SemiBold.ttf */,
+				FBA466322A83A93600BC1D7A /* Montserrat-Bold.ttf */,
+				FBA466302A83A93600BC1D7A /* Montserrat-Medium.ttf */,
+				FBA466312A83A93600BC1D7A /* Montserrat-SemiBold.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +256,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB48B7062A863ADC0049FDB7 /* tapSound.mp3 in Resources */,
+				FB43A17A2A86B76000AB0470 /* Raleway-Medium.ttf in Resources */,
 				FBD6A0BD2A836273005D6022 /* LaunchScreen.storyboard in Resources */,
 				FBD6A0BA2A836273005D6022 /* Assets.xcassets in Resources */,
+				FB43A17E2A86B76D00AB0470 /* Montserrat-SemiBold.ttf in Resources */,
+				FB43A17C2A86B76700AB0470 /* Montserrat-Bold.ttf in Resources */,
+				FB43A1792A86B75E00AB0470 /* Raleway-Bold.ttf in Resources */,
 				FBD6A0B52A836272005D6022 /* Main.storyboard in Resources */,
+				FB43A17D2A86B76900AB0470 /* Montserrat-Medium.ttf in Resources */,
+				FB43A17B2A86B76300AB0470 /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +276,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD6A0B22A836272005D6022 /* ViewController.swift in Sources */,
+				FBD6A0D32A839634005D6022 /* CoachCornerVC.swift in Sources */,
+				FBD6A0D52A839640005D6022 /* BaseVC.swift in Sources */,
+				FB48B6FA2A85D5F50049FDB7 /* UserDefaultsManager.swift in Sources */,
+				FBA466352A83D0B000BC1D7A /* FeedbacksCell.swift in Sources */,
+				FB48B6FE2A8612B30049FDB7 /* InstructionVC.swift in Sources */,
+				FBD6A0C52A836373005D6022 /* UIViewExtension.swift in Sources */,
+				FBD6A0CF2A838FF9005D6022 /* WorkshopVC.swift in Sources */,
+				FBE9B19B2A83F39A0048A7F5 /* CoachsItemView.swift in Sources */,
+				FBD6A0B22A836272005D6022 /* HomeVC.swift in Sources */,
 				FBD6A0AE2A836272005D6022 /* AppDelegate.swift in Sources */,
+				FBD6A0C72A836380005D6022 /* UIColorextension.swift in Sources */,
+				FB48B6F62A8542D40049FDB7 /* LessonTimeItemView.swift in Sources */,
+				FB15DEA82A8772AB00BFC7B9 /* BookTimeTable.swift in Sources */,
+				FB48B6FC2A8600EF0049FDB7 /* BookTimesCell.swift in Sources */,
+				FBD6A0D12A83961D005D6022 /* FeedbackVC.swift in Sources */,
+				FB48B6F32A8540EE0049FDB7 /* WorkshopCell.swift in Sources */,
+				FBD6A0CD2A838FE3005D6022 /* LockerVC.swift in Sources */,
 				FBD6A0B82A836272005D6022 /* Gym_Team_Fit.xcdatamodeld in Sources */,
+				FBED13A92A8942DC00662B41 /* ArrayExtension.swift in Sources */,
 				FBD6A0B02A836272005D6022 /* SceneDelegate.swift in Sources */,
+				FB48B6F82A854EFF0049FDB7 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +446,7 @@
 				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Gym Team Fit/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +475,7 @@
 				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Gym Team Fit/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

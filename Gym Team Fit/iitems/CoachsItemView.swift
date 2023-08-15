@@ -28,7 +28,7 @@ class CoachsItemView: UIView {
         lbl.text = "    Fitness coach   "
         lbl.textColor = .white
         lbl.textAlignment = .left
-        lbl.font = .systemFont(ofSize: 16, weight: .bold)
+        lbl.font = UIFont(name: "Montserrat-Bold", size: 16)
         lbl.backgroundColor = .typeCoachBGColor().withAlphaComponent(0.8)
         lbl.layer.cornerRadius = 10
         lbl.clipsToBounds = true
@@ -44,7 +44,7 @@ class CoachsItemView: UIView {
         lbl.textColor = .coachNameColor()
         lbl.textAlignment = .center
         lbl.numberOfLines = 1
-        lbl.font = .monospacedDigitSystemFont(ofSize: 11, weight: .medium)
+        lbl.font = UIFont(name: "Montserrat-Bold", size: 11)
         
         return lbl
     }()
@@ -66,7 +66,7 @@ class CoachsItemView: UIView {
         lbl.textColor = .coachNameColor()
         lbl.textAlignment = .center
         lbl.numberOfLines = 1
-        lbl.font = .monospacedDigitSystemFont(ofSize: 11, weight: .medium)
+        lbl.font = UIFont(name: "Montserrat-Bold", size: 11)
         
         return lbl
     }()
@@ -88,7 +88,7 @@ class CoachsItemView: UIView {
         lbl.textColor = .coachNameColor()
         lbl.textAlignment = .center
         lbl.numberOfLines = 1
-        lbl.font = .monospacedDigitSystemFont(ofSize: 11, weight: .medium)
+        lbl.font = UIFont(name: "Montserrat-Bold", size: 11)
         
         return lbl
     }()

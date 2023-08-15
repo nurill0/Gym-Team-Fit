@@ -10,29 +10,24 @@ import UIKit
 extension UIColor {
     // general
     static func baseColor()->UIColor{
-        return UIColor(hexString: "5FA160")
+        return UIColor(hexString: "#0C2E60")
     }
     
-
-    static func buttonBgColor()->UIColor{
-        return UIColor(hexString: "03DAE5")
+    static func borderColor()->UIColor{
+        return UIColor(hexString: "527ECF")
     }
     
-    static func workPlaceBg()->UIColor {
-        return UIColor(named: "HomeModeColors")!
+    static func itemsBaseColor()->UIColor{
+        return UIColor(hexString: "#042556")
     }
     
-    static func homeCellBg()->UIColor {
-        return UIColor(named: "HomeCell")!
+    static func typeCoachBGColor()->UIColor{
+        return UIColor(hexString: "FFA41F")
     }
     
-    static func titleModeColors()->UIColor {
-        return .black
+    static func coachNameColor()->UIColor{
+        return UIColor(hexString: "65FFA8")
     }
-    
-    
- 
-    
     
 }
 

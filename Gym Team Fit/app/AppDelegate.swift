@@ -15,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let iD = Int.random(in: 0...10000000000)
+        let ud = UserDefaultsManager.shared
+        if ud.getUserID() == 0 {
+            ud.setPlayerID(id: iD)
+        }else{
+            
+        }
+        print("\(ud.getCheck())")
         return true
     }
 
